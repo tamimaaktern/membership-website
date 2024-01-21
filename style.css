@@ -1,0 +1,285 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+nav{
+	display:flex;
+	background-image:linear-gradient(skyblue,skyblue);
+	height:100px;
+	width:100%;
+}
+nav .logo img{
+	margin-left:50px;
+	height:40px;
+	width:60px;
+	margin-top:20px;
+}
+nav ul{
+	list-style:none;
+	float:right;
+	line-height:70px;
+	margin-left:1200px;
+}
+li a {
+	text-decoration:none;
+	
+}
+li{
+	display:inline-block;
+	margin-left:50px;
+	
+}
+.sc1{
+	display:flex;
+	background-color:skyblue;
+	padding:50px;
+	height:480;
+	margin-bottom:150px;
+}
+.hd h1{
+	font-size:70px;
+}
+.nuhu img{
+	border-radius:250px 250px;
+	height:900px;
+	width:800px;
+	margin-top:-350px;
+}
+.div{
+	margin-left:130px;
+}
+.sc2{
+	background-color:white;
+	height:180px;
+	width:1550px;
+	display:flex;
+	box-shadow:2px 2px 10px #00e7ea;
+	border-radius:20px;
+	margin:100px auto auto auto;
+	margin-bottom:100px;
+}
+.elmt img{
+	width:120px;
+	margin-left:40px;
+	padding:30px;
+	transition:.5s;
+}
+.elmt:hover{
+	margin-top:-20px;
+}
+#srv{
+	color:#007BFF;
+	text-align:center;
+	font-size:30px;
+}
+.ms {
+	color:#007BFF;
+	text-align:center;
+	font-size:50px;
+}
+.sc3{
+	display:flex;
+	margin-bottom:100px;
+	margin-left:90px;
+	
+}
+.img{
+	background-color:#CACACA;
+	height:450px;
+	width:320px;
+	border-radius:20px;
+	margin-left:300px;
+	margin-top:30px;
+}
+.img img{
+	height:150px;
+	margin-left:80px;
+	padding:30px 0px 0px 0px;
+}
+.img h1{
+	color:#007BFF;
+	text-align:center;
+}
+.img p{
+	text-align:justify;
+	margin:20px;
+}
+.img a{
+	text-decoration:none;
+	background-color:#007BFF;
+	color:white;
+	text-align:center;
+	margin-left:100px;
+	border-radius:10px;
+	padding:5px;
+	transition:.5s;
+}
+.img a:hover{
+	margin:5px;
+}
+.img2{
+	background-color:#007BFF;
+	height:500px;
+	width:320px;
+	border-radius:20px;
+	margin-left:50px;
+	box-shadow:10px 10px 60px #0099DD;
+}
+.img2 img{
+	height:150px;
+	margin-left:80px;
+	padding:30px 0px 0px 0px;
+}
+.img2 h1{
+	color:white;
+	text-align:center;
+}
+.img2 p{
+	color:white;
+	text-align:justify;
+	margin:20px;
+}
+.img2 a{
+	text-decoration:none;
+	background-color:white;
+	color:#007BFF;
+	padding:5px;
+	border-radius:10px;
+	margin-left:100px;
+	transition:.5s;
+}
+.img2 a:hover{
+	margin:5px;
+}
+.img3{
+	background-color:#CACACA;
+	height:450px;
+	width:320px;
+	border-radius:20px;
+	margin-left:50px;
+	margin-top:30px;
+}
+.img3 img{
+	height:150px;
+	margin-left:80px;
+	padding:30px 0px 0px 0px;
+}
+.img3 h1{
+	color:#007BFF;
+	text-align:center;
+}
+.img3 p{
+	text-align:justify;
+	margin:20px;
+}
+.img3 a{
+	text-decoration:none;
+	background-color:#007BFF;
+	color:white;
+	text-align:center;
+	margin-left:101px;
+	border-radius:10px;
+	padding:5px;
+	transition:.5s;
+}
+.img3 a:hover{
+	margin:10px;
+}
+.sc4{ 
+	display:flex;
+	margin-top:50px;
+	background-color:#D2E8E3;
+	margin-bottom:100px;
+	width:1700px;
+}
+.end{
+	margin-left:500px;
+	margin-right:200px;
+}
+.end h1{
+	color:#007BFF;
+	font-size:50px;
+}
+.end a{
+	text-decoration:none;
+	background-color:#007BFF;
+	color:white;
+	padding:5px;
+	text-align:center;
+	border-radius:10px;
+	transition:.5s;
+}
+.end a:hover{
+	color:yellow;
+	margin:10px;
+}
+.end p{
+	text-align:justify;
+	margin:20px;
+}
+footer{
+	text-align:center;
+}
+@media(max-width:768px){
+	nav{
+		display:inline-block;
+		background-image:linear-gradient(skyblue,skyblue);
+		width:768px;
+	}
+	li{
+		display:inline;
+	}
+	nav ul{
+		
+	}
+	.sc1{
+		display:block;
+		background-color:skyblue;
+		padding:50px;
+		height:1300px;
+		width:700px;
+		margin-bottom:150px;
+	}
+	.nuhu img{
+		margin-left:-300px;
+	}
+	.sc2{
+		background-color:white;
+		height:1300px;
+		width:230px;
+		display:block;
+		box-shadow:2px 2px 10px #00e7ea;
+		border-radius:20px;
+		margin:100px auto auto auto;
+		margin-bottom:100px;
+	}
+	.sc3{
+		display:block;
+		margin-bottom:10px;
+	
+	}
+	.img{
+		margin-left:150px;
+	}
+	.img2{
+		margin-left:150px;
+		margin-top:40px;
+	}
+	.img3{
+		margin-left:150px;
+	}
+	.sc4{ 
+		display:block;
+		height:400px;
+	}	
+	.end{
+		margin-left:200px;
+		margin-right:1100px;
+	}
+	.end2{
+		margin-top:50px;
+		margin-left:100px;
+	}
+	footer{
+		margin-top:500px;
+	}
+}
